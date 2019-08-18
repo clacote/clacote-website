@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cyril Lacote website
-email: your-email@example.com
+title: Cyril Lacote
+email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Cyril Lacote. I do software for a living.
-  I live in Amsterdam, Netherlands, and work at [Adyen](https://adyen.com) as a Java Developer.
-  Before that, I co-founded the collaborative company [Ninja Squad](https://ninja-squad.com),
-  and the tech conference [MiXiT](https://mixitconf.org) in Lyon, France
-  where I lived for a long time.
+  I do software for a living.
+  I live in Amsterdam and work at Adyen as a Java Developer.
+  Before that, I co-founded the collaborative company Ninja Squad,
+  and the tech conference MiXiT in Lyon, France.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cyril.lacote.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:   clacote
 github_username:    clacote
 instagram_username: clac0te
