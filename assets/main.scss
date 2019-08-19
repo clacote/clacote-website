@@ -2,4 +2,20 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+@import
+  "bulma/utilities/_all.sass",
+  "bulma/base/_all.sass",
+  "bulma/components/level.sass",
+  "bulma/layout/_all.sass",
+  "bulma/grid/columns.sass",
+  "bulma/elements/image.sass",
+  "bulma/elements/icon.sass",
+  "bulma/elements/content.sass",
+  "bulma/elements/title.sass",
+  "bulma/elements/other.sass",
+  "bulma/elements/container.sass"
+;
+
+footer {
+  margin-top: 2em;
+}

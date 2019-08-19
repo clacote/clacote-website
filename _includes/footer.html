@@ -1,22 +1,10 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-          <h2 class="footer-heading">{{ site.title | escape }}</h2>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
+<footer>
+  <div class="content has-text-centered">
+    <p>
+      Learn more about me on <a href="{{ site.twitter }}">Twitter</a>,
+      <a href="{{ site.instagram }}">Instagram</a>,
+      <a href="{{ site.linkedin }}">LinkedIn</a>,
+      or <a href="{{ site.github }}">Github</a>
+    </p>
   </div>
-
 </footer>
