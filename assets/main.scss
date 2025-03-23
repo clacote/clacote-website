@@ -24,3 +24,8 @@ footer {
 svg {
   width: 3em;
 }
+
+/* underline link URLs */
+a[href] {
+  text-decoration: underline;
+}
